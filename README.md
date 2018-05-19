@@ -47,7 +47,7 @@
 	 
 	代码如下
 	
-	```
+	```php
 	    $list = array(1,2,3,3,4,5,6,6,5,3,2,1);
         $acit = array_unique($list); //数组去重
         $newarray = array();
