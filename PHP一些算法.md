@@ -69,3 +69,25 @@ function ReverTower($n)
   }
 }
 ```
+
+- 冒泡排序
+
+```php
+   $arr=[2,3,5,1,2,1,9,6];
+   function maopao($arr) {
+     $number = count($arr);
+	 if($number <=1) {
+        return $arr;
+     }
+    for($i=1;$i<$number;$i++){
+     for($j=0;$j<=$number-$i;$j++) {
+         if($arr[$j]>$arr[$j+1]) {
+            $tmp = $arr[$j+1];
+            $arr[$j] = $tmp;
+            $arr[$j+1] = $arr[$j];
+         } 
+     }
+    }
+    return $arr;
+   }
+```
