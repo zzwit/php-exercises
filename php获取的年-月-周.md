@@ -1,3 +1,4 @@
+``` PHP
 <?php
 
     /**date 2015-04-11
@@ -59,8 +60,7 @@
     echo date("Y-m-d H:i:s",mktime(0, 0 , 0,date("m"),1,date("Y"))),"\n";
 
     echo date("Y-m-d H:i:s",mktime(23,59,59,date("m"),date("t"),date("Y"))),"\n";
-
- 
+    
 
     $season = ceil((date('n'))/3);//当月是第几季度
 
@@ -82,3 +82,4 @@
 
 ?>
 
+```
